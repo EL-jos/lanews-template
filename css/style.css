@@ -220,6 +220,14 @@ nav.el-navbar{
     color: #f2f2f2;
     line-height: 15px;
     font-weight: 300;
+}.el-form-newsletter button{
+    background: var(--success);
+    padding: .5rem 1rem;
+    border-radius: var(--border-radius);
+    font-size: .8rem;
+    color: var(--white);
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 #el-low-annonce .el-content-area{
@@ -274,10 +282,11 @@ nav.el-navbar{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 200px);
     grid-gap: 1rem;
+    width: 100%;
 }#el-la-une .el-content-area{
     display: flex;
     flex-direction: column;
-    align-items: flex;
+    align-items: flex-start;
     padding: 1rem;
     gap: 1rem;
 }

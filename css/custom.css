@@ -207,3 +207,7 @@ footer{
     display: flex;
     gap: .5rem;
 }
+
+.el-content-area{
+    width: 95%;
+}
