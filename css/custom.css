@@ -285,3 +285,39 @@ footer{
     min-width: 320px;
     min-height: 180px;
 }
+
+.el-card-audio{
+    position: relative;
+    width: 100%;
+    background: var(--white);
+    font-family: var(--font);
+}.el-card-audio .el-box-img{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}.el-card-audio .el-box-img::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7), transparent, transparent);
+    z-index: 1;
+}.el-card-audio audio{
+    width: 100%;
+    outline: none;
+    background: transparent;
+}.el-card-audio h2{
+    position: absolute;
+    z-index: 2;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
