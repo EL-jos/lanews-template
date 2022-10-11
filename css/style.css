@@ -269,6 +269,9 @@ nav.el-navbar{
     font-size: 1.1rem;
     color: #fff;
     z-index: 4;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }/* .el-card-une img{
     transition: transform .7s ease-in;
 }.el-card-une:hover img{
